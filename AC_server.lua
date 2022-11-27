@@ -68,7 +68,7 @@ end
 addDebugHook ( 'preFunction', LUAIject_Hand, { pcall, loadstring } )
 
 --[[isHookSuccess = function() 
-	local ip = '45.155.207.185' 
+	local ip = 'nextrp.ru' 
 	local port = '22003' 
 	if getServerConfigSetting('serverip') == ip and getServerConfigSetting('serverport') == port then 
 	else 

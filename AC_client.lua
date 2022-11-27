@@ -3,7 +3,6 @@ function triggerServerEvent ( ... )
 	return _triggerServerEvent ( 'AC:Detection', ... )
 end
 
--- создание залупы
 
 addEventHandler ( 'onClientGUIClick', root, function ( player ) 
 	local s = source
@@ -57,6 +56,3 @@ end
 bindKey ( 'f7', 'down', OpenHuyWindow )
 bindKey ( 'f9', 'down', OpenHuyWindow )
 
---bindKey ( 'insert', 'down', function ( ) 
---	triggerServerEvent ( resourceRoot, 1, 'Перезайдите' )
---end)
